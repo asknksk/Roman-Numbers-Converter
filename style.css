@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: khaki;
+}
+h1 {
+  padding: 4rem;
+}
+input {
+  width: 12rem;
+}
+button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: orangered;
+  color: white;
+  width: 4rem;
+  height: 1.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px -5px 12px #ffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 1.5rem;
+}
+button:active {
+  box-shadow: 5px 5px 12px #ffff, -5px -5px 12px rgba(0, 0, 0, 0.16);
+}
+.description {
+  padding: auto;
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+p.output {
+  background-color: darkseagreen;
+  color: white;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+}
